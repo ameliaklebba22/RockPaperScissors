@@ -14,6 +14,10 @@
 		6E679E4A273D515A0081FC53 /* RockPaperScissors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E679E48273D515A0081FC53 /* RockPaperScissors.xcdatamodeld */; };
 		6E679E4C273D515E0081FC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E679E4B273D515E0081FC53 /* Assets.xcassets */; };
 		6E679E4F273D515E0081FC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E679E4D273D515E0081FC53 /* LaunchScreen.storyboard */; };
+		6E679E57273D5A2C0081FC53 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E679E56273D5A2C0081FC53 /* PlayingView.swift */; };
+		6ED1370627420F5600962B5E /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1370527420F5600962B5E /* ThirdView.swift */; };
+		6ED137082742120000962B5E /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED137072742120000962B5E /* Games.swift */; };
+		6ED5B0172743E9C000E884B4 /* CrazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED5B0162743E9C000E884B4 /* CrazyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		6E679E4B273D515E0081FC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E679E4E273D515E0081FC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E679E50273D515E0081FC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E679E56273D5A2C0081FC53 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		6ED1370527420F5600962B5E /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		6ED137072742120000962B5E /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		6ED5B0162743E9C000E884B4 /* CrazyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,9 @@
 		6E679E33273D515A0081FC53 = {
 			isa = PBXGroup;
 			children = (
+				6ED5B0162743E9C000E884B4 /* CrazyCell.swift */,
+				6ED137072742120000962B5E /* Games.swift */,
+				6ED1370527420F5600962B5E /* ThirdView.swift */,
 				6E679E3E273D515A0081FC53 /* RockPaperScissors */,
 				6E679E3D273D515A0081FC53 /* Products */,
 			);
@@ -62,6 +73,7 @@
 				6E679E41273D515A0081FC53 /* SceneDelegate.swift */,
 				6E679E43273D515A0081FC53 /* ViewController.swift */,
 				6E679E45273D515A0081FC53 /* Main.storyboard */,
+				6E679E56273D5A2C0081FC53 /* PlayingView.swift */,
 				6E679E4B273D515E0081FC53 /* Assets.xcassets */,
 				6E679E4D273D515E0081FC53 /* LaunchScreen.storyboard */,
 				6E679E50273D515E0081FC53 /* Info.plist */,
@@ -143,7 +155,11 @@
 			files = (
 				6E679E44273D515A0081FC53 /* ViewController.swift in Sources */,
 				6E679E40273D515A0081FC53 /* AppDelegate.swift in Sources */,
+				6E679E57273D5A2C0081FC53 /* PlayingView.swift in Sources */,
+				6ED5B0172743E9C000E884B4 /* CrazyCell.swift in Sources */,
+				6ED137082742120000962B5E /* Games.swift in Sources */,
 				6E679E4A273D515A0081FC53 /* RockPaperScissors.xcdatamodeld in Sources */,
+				6ED1370627420F5600962B5E /* ThirdView.swift in Sources */,
 				6E679E42273D515A0081FC53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HGQ7Q6B5V7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HGQ7Q6B5V7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
